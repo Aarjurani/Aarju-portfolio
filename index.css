@@ -1,56 +1,56 @@
-
-.row-display{
-    width: 80vw;
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align:flex-start ;
-
+.row-display {
+  width: 80vw;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: flex-start;
 }
-.contact-item{
-    align-items: start;
+.contact-item {
+  align-items: start;
 }
 
-i{
-   color:darkred ;
+i {
+  color: darkred;
 }
- button a{
-    color: white;
-    text-decoration: none;
+button a {
+  color: white;
+  text-decoration: none;
 }
-button a:hover{
-    color: white;
-    
+button a:hover {
+  color: white;
 }
-.home-img{
-    width: 350px;
-    height: 350px;
-    border-radius:100% ;
-    margin: 20px 20px 20px 60px ;
+.home-img {
+  width: 360px;
+  height: 360px;
+  border-radius: 100%;
+  margin: 20px 20px 20px 100px;
+  overflow: hidden;
+}
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+.project-img {
+  width: 250px;
+  margin-bottom: 5px;
+}
+.service-item {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 736px) {
+  .home-img {
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    margin: auto;
     overflow: hidden;
+  }
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+  }
 }
-.profile-pic{
-    width: 100%;
-    height: 100%;
-    border-radius:100% ;
-}
-
-@media (max-width:736px) {
-    .home-img{
-        width: 320px;
-        height: 320px;
-        border-radius:100% ;
-        margin: auto ;
-        overflow: hidden;
-    }
-    .profile-pic{
-        width: 100%;
-        height: 100%;
-        border-radius:100% ;
-    } 
-}
-
-
-
-
